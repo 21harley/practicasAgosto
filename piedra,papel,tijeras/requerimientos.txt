@@ -1,4 +1,4 @@
-se juega contra la maquina
-se puede establecer un numero de rondas 
-tedras una cuenta atras de 3 segundos para elegir tu jugada
-esta permitido el uso de imagenes
+1) se juega contra la maquina
+2) se puede establecer un número de rondas 
+3) tendrás una cuenta atrás de 3 segundos para elegir tu jugada
+4) está permitido el uso de imágenes
