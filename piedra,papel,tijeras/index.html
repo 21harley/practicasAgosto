@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Piedra papel o tigeras</h1>
+    <div class="container" id="marco">
+        <div action="#" class="container-menu" id="menu">
+          <label class="">Rondas:<input type="text" value="3" id="rondas" ></label>
+          <button onclick="playIni()">play</button>
+        </div>
+        <div class="container-game" id="game">
+          <div class="container-game__play">
+
+            <div>
+                <button class="mostrarPC"></button>
+                <button class="mostrarPC" id="mostrarPC"></button>
+                <button class="mostrarPC"></button>
+            </div>
+            <div>
+                <button onclick="gamePlayer(1)"><img src="piedra.png"></button>
+                <button onclick="gamePlayer(2)"><img src="papel.png"></button>
+                <button onclick="gamePlayer(3)"><img src="tigeras.png"></button>
+            </div>
+            <button class="container-game__close" id="clase" onclick="closeP()">Close</button>     
+        </div>
+        <div>
+            <h2>Rondas:</h2>
+            <h2 id="Rondas"></h2>
+            <h2 >Time:</h2>
+            <h2 id="gameC">#</h2>
+            <h2 >victory:</h2>
+            <h2 id="gameM">Juego</h2>
+            <h2 >Final:</h2>
+            <h2 id="end"></h2>
+          </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Simon dice</h1>
+    <h2>Mejor Jugador</h2>
+    <h2 id="mejorJ">#</h2>
+    <div class="container">
+        <div class="fm" id="fm">
+            <label for="">Player:<input type="text" id="nombre"></label>
+            <input type="submit"  onclick="cargar()" value="play">
+        </div>
+        <div class="container-color" id="game">
+            <button class="box1" id="red"    onclick="move(1)"></button>
+            <button class="box2" id="blue"   onclick="move(2)"></button>
+            <button class="box3" id="green"  onclick="move(3)"></button>
+            <button class="box4" id="yellow" onclick="move(4)"></button>
+            <button class="box5" id="star" onclick="game()">Star</button>
+        </div>
+    </div>
+    <h2 id="estado"></h2>
+</body>
+</html>

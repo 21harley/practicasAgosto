@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white; 
+    height: 100vh;
+    text-align: center;
+}
+
+.container{
+    height: 400px;
+    width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.container-menu{
+  display: flex;
+}
+
+.container-game{
+    display: none;
+}
+
+.mostrarPC{
+    background: none;
+    border-style: none;
+    width: 182px;
+    height: 200px;
+}
+.container-game__close{
+   border-style: grey;
+   background-color: white;
+}
