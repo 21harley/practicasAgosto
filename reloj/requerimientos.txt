@@ -1,6 +1,7 @@
-Reloj analogico 
+Reloj analógico 
 
-1)Se debe hace un reloj analogico que marque la hora actual
-2)No esta permitido el uso de imagenes
-3)No esta permitido el uso de frameworks ni librerias
+1)Se debe hace un reloj analógico que marque la hora actual
+2)No está permitido el uso de imágenes
+3)No está permitido el uso de frameworks ni librerias
 4)Se pueden usar motores de plantilla y/o preprocesadores
+
